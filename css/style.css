@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(252, 204, 115);
+
+    text-align: center;
+}
+
+.content{
+    background-color: white;
+
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 10%;
+
+    border-radius: 50px;
+
+    box-shadow: -5px 4px 10px black;
+}
+
+.content .add{
+    padding: 50px 10px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content .add input[type=button]{
+    font-size: 30px;
+
+    border-radius: 5px;
+    border: 1px solid crimson;
+    
+    color: white;
+    background-color: crimson;
+}
+.content .add input[type=text]{
+    border-radius: 0px;
+    border: 1px solid black;
+
+    font-size: 30px;
+
+    width: 55%;
+}
+
+.content .tasks{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 14px 14px;
+}
+.content .tasks .task{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin-bottom: 14px;
+
+    background-color: gray;
+}
+.content .tasks .task .txt{
+    text-align: left;
+
+    color: white;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content .tasks .task input[type=button]{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 5px 5px;
+
+    float: right;
+    
+    color: white;
+    background-color: gray;
+}
+
+.content .tasks .hide{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    visibility: hidden;
+
+    margin-bottom: 14px;
+
+    background-color: gray;
+}
+.content .tasks .hide .txt{
+    text-align: left;
+
+    text-decoration:line-through white;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content .tasks .hide input[type=button]{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 5px 5px;
+
+    float: right;
+    
+    color: white;
+    background-color: gray;
+}
