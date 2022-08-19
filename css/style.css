@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(252, 204, 115);
+    background-color: pink;
 
     text-align: center;
 }
@@ -106,4 +106,25 @@ body{
     
     color: white;
     background-color: gray;
+}
+
+.me h3{
+    font-family: sans-serif;
+
+    font-size: 20px;
+}
+.me h2{
+    font-family: sans-serif;
+
+    font-size: 26px;
+}
+
+
+
+@media screen and (max-width : 800px) {
+    .content{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
